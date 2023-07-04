@@ -13,7 +13,7 @@ class Bootstrap
 			$url = filter_var($_GET['page'], FILTER_SANITIZE_URL);
 			// trim = Hilangkan space
 			$url = trim($url);
-			// explode = Membagi string diantara slash
+			// explode = Membagi string diantara slash 
 			$url = explode('/', $url);
 			// ucfirst = Uppercase First
 			// array_shift = menampilkan nilai pertama array
@@ -51,7 +51,7 @@ class Bootstrap
 		} else {
 			$class = "App\\Controllers\\Home";
 			$controller = new $class();
-			$controller->index();
+			$controller->home();
 		}
 	}
 }

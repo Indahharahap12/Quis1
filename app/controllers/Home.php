@@ -7,10 +7,10 @@ use App\Core\Controller;
 class Home extends Controller
 {
 
-	public function index()
+	public function home()
 	{
-		$data['row_index'] = "Ini file app/controllers/Index.php - index()";
-		$this->home('golongan/index', $data);
+		$data['row_home'] = "Ini file app/controllers/Home.php - home()";
+		$this->home('golongan/home', $data);
 	}
 
 	public function show()
