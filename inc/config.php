@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 session_start();
 
 // Url -
-define("URL", "http://localhost/tugas2-pbwl");
+define("URL", "http://localhost/pbwl-quis");
 define("AST", URL . "/layouts/assets");
 
 // Path root

@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Tugas 2</title>
+		<title>Quis </title>
 		<link rel="stylesheet" href="<?php echo AST; ?>/css/bootstrap.min.css">
 	</head>
 
 	<body>
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container">
-			<a class="navbar-brand" href="<?php echo URL; ?>/dashboard">Tugas 2 PBWL</a>
+			<a class="navbar-brand" href="<?php echo URL; ?>/dashboard">QUIS PBWL</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>

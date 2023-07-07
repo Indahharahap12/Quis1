@@ -37,5 +37,5 @@ CREATE TABLE tb_pelanggan (
       created_ad TIMESTAMP NOT NULL,
       update_at DATETIME NOT NULL,
       PRIMARY KEY(pel_id),
-      UNIQUE KEY()
+      UNIQUE KEY (pel_id_gol)
 );
